@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#030614"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#01051A"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Class-9"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#F1C0C0" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#ff6666"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Class-10"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#ffcc66"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Class-11"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#006666"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Class-12"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#01051A"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Olympiad"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#F1C0C0" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#ff6666"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Jee-Mains"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#ffcc66"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Neet/Aiims"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

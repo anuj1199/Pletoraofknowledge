@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#04050C"
+    tools:context=".Chemtwelve">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="410dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="636dp"
+        android:background="#111425"
+        android:fontFamily="@font/aldrich"
+        android:paddingLeft="125dp"
+        android:text="Chemistry"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F0B5B5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="636dp"
+        android:layout_marginTop="95dp"
+        android:background="#111425">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#01051A"
+                android:drawableLeft="@drawable/agenda"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Chemistry Ncert"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#F1C0C0" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#ff6666"
+                android:drawableLeft="@drawable/agenda"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Chemistry Ncert Solutions"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:background="#ffcc66"
+                android:drawableLeft="@drawable/agenda"
+                android:drawablePadding="170px"
+                android:drawingCacheQuality="high"
+                android:fontFamily="@font/aldrich"
+                android:paddingLeft="40px"
+                android:paddingTop="40px"
+                android:text="Quiz"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#040716" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

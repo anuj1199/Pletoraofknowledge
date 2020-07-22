@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070B20"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="120dp"
+        android:background="#01051A"
+        app:srcCompat="@drawable/register" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="78dp"
+        android:fontFamily="@font/aldrich"
+        android:paddingLeft="60dp"
+        android:text="Register"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FACACA" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="407dp"
+        app:srcCompat="@drawable/flat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="298dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:paddingLeft="230px"
+        android:paddingTop="10px"
+        android:text="Plethora of Books"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ffccff" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="168dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="116dp"
+        android:background="#070B20"
+        app:srcCompat="@drawable/id" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/aldrich"
+        android:paddingLeft="60dp"
+        android:text="Log-In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FACACA" />
+
+</RelativeLayout>
